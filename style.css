@@ -192,7 +192,7 @@ nav.toggle_right_style {right: 0;opacity: 1;z-index: 45;}
 	.main_img{position: absolute; top: 50%; transform: translateY(-50%); max-width: 478px; left: -88px;}
 	.main_img:before{position:absolute;content:url(images/main_bfr.png);right: -137px; top: 50px;}
 
-	main{float: right;width: calc(100% - 627px);line-height: 28px;text-align: center;padding: 4vh 2vh 6vh;animation-duration: 5500ms !important;}
+	main{float: right;width: calc(100% - 627px);line-height: 28px;text-align: center;padding: 4vh 2vh 6vh;animation-duration: 7500ms !important;}
 		main .h1_title{font-size: 99px; font-weight: bold; line-height: 100%; margin-bottom: 45px; font-family: 'Six Caps', sans-serif;;}
 		main p{margin-bottom:15px;line-height: 45px;font-size:19px;}
 		main ol{padding-left: 20px; margin-bottom: 15px;}
