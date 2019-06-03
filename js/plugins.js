@@ -152,7 +152,7 @@ $(document).ready(function(){
 		});
 
 
-	// Wrap every letter in a span
+	//Wrap every letter in a span
 	$('.banner_title_holder .name_letters').each(function(){
 	  $(this).html($(this).text().replace(/([^\x00-\x80]|\w)/g, "<span class='letter'>$&</span>"));
 	});

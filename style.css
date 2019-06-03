@@ -163,7 +163,7 @@ nav.toggle_right_style {right: 0;opacity: 1;z-index: 45;}
 	.banner_title_holder .banner_title { position: relative;display: inline-block;padding:12px;}
 	.banner_title_holder .letter {transform-origin: 50% 100%; display: inline-block;line-height: 1em;}
 	.arrow_holder{padding: 107px 0 0;}
-	.arrow_icon{display: block;margin: 0 auto ; animation: arrow_bounce .7ss infinite alternate;   -webkit-animation: arrow_bounce .7s infinite alternate;}
+	.arrow_icon{display: inline-block;margin: 0 auto ; animation: arrow_bounce .7ss infinite alternate;   -webkit-animation: arrow_bounce .7s infinite alternate;}
 	.arrow_icon:hover:before{color:}
 	.arrow_icon:before{content: '\f103';position: static;font-size: 85px;font-family: 'FontAwesome';color: #c5c6c7;}
 
@@ -192,7 +192,7 @@ nav.toggle_right_style {right: 0;opacity: 1;z-index: 45;}
 	.main_img{position: absolute; top: 50%; transform: translateY(-50%); max-width: 478px; left: -88px;}
 	.main_img:before{position:absolute;content:url(images/main_bfr.png);right: -137px; top: 50px;}
 
-	main{float: right;width: calc(100% - 627px);line-height: 28px;text-align: center;padding: 4vh 2vh 6vh;;}
+	main{float: right;width: calc(100% - 627px);line-height: 28px;text-align: center;padding: 4vh 2vh 6vh;animation-duration: 5500ms !important;}
 		main .h1_title{font-size: 99px; font-weight: bold; line-height: 100%; margin-bottom: 45px; font-family: 'Six Caps', sans-serif;;}
 		main p{margin-bottom:15px;line-height: 45px;font-size:19px;}
 		main ol{padding-left: 20px; margin-bottom: 15px;}
@@ -200,7 +200,7 @@ nav.toggle_right_style {right: 0;opacity: 1;z-index: 45;}
 		main .bullet {padding:0;margin-bottom: 15px;}
 		main .bullet li{position:relative;padding-left: 25px;margin-bottom: 8px}
 		main .bullet li:before{position: absolute;content: "";width: 10px;height: 10px;border-radius: 50%;left: 3px;top: 9px;background: #a80c0c;}
-		main a{display: block;font-size: 22px;text-align: left;padding-top: 25px;color:#1f2833}
+		main a{display: block;font-size: 22px;text-align: left;margin-top: 25px;color:#1f2833;max-width:122px}
 		main a:hover{color:#c5c6c7;}
 
 
